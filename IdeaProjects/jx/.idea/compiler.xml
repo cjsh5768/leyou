@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jx-after-loan" />
+        <module name="jx-after-revolving-loan" />
+        <module name="jx-before-loan-interface" />
+        <module name="jx-before-loan-service" />
+        <module name="jx-before-revolving-loan" />
+        <module name="jx-common" />
+        <module name="jx-return-money" />
+        <module name="jx-send-message" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

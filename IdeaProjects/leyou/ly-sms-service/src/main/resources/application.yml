@@ -1,0 +1,16 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 192.168.26.2
+    username: /heima
+    password: 123456
+    virtual-host: /leyou
+ly:
+  sms:
+    accessKeyId: LTAILrjGyAWsB07o # 你自己的accessKeyId
+    accessKeySecret: 7gZXYX9twad2H5930a2ds5d3uTYcrB # 你自己的AccessKeySecret
+    signName: 丁志鹏 # 签名名称
+    verifyCodeTemplate: SMS_141940008 # 模板名称
